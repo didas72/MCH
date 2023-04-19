@@ -1,0 +1,27 @@
+﻿MCH structure
+
+User creates several "Mods" containing
+	"SpawnGroups"
+	"Prefabs"
+	"ContainerTypes"
+	"Factions"
+	"Behaviours"
+	"Encounters" ? (which have prefabs, behaviours (again) and triggers)
+
+SpawnGroups have:
+	Id
+		TypeId = (always "SpawnGroupDefinition")
+		SubtypeId = name
+	Description
+		[MES TAGS]
+	IsPriate (always "true")
+	Frequency = freq
+	Prefabs
+		Prefab <SubtypeId=prefabName>
+			Position
+				X = x
+				Y = y
+				Z = z
+		Speed = speed
+		Behaviour = (behaviour)
+//

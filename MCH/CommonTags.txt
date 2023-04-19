@@ -1,0 +1,11 @@
+﻿//Taken from SpawnGroupMES.sbc by MeridiusIX
+SpaceCargoShip:false
+LunarCargoShip:false
+SpaceRandomEncounter:false
+AtmosphericCargoShip:false
+PlanetaryInstallation:false
+RivalAiSpawn:false
+FactionOwner:SPRT
+ReplenishSystems:true
+UseRivalAi:false
+RivalAiReplaceRemoteControl:false
