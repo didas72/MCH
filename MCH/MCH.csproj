@@ -24,9 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="DidasUtils">
-      <HintPath>..\..\DidasUtils\DidasUtils\bin\Release\net7.0\DidasUtils.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\DidasUtils\DidasUtils\DidasUtils.csproj" />
   </ItemGroup>
 
   <ItemGroup>
